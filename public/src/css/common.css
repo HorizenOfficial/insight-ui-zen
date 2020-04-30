@@ -6,14 +6,14 @@
 html,
 body {
   color: #373D42;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'proxima-nova', sans-serif;
   height: 100%;
   /* The html and body elements cannot have any padding or margin. */
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #373D42;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'proxima-nova', sans-serif;
 }
 
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak],
@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 /* Styling for the ngProgress itself */
 #ngProgress {
-  background-color: #6C9032 !important;
+  background-color: #0E9DE5 !important;
   box-shadow: none !important;
   color: #373D42 !important;
   height: 3px !important;
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   position: fixed;
   margin: 0;
   padding: 0;
-  top: 63px;
+  top: 62px;
   left: 0;
   right: 0;
   z-index: 99999;
@@ -103,7 +103,7 @@ margin-left: 0;
 }
 
 .table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th {
-  background-color: #F0F7E2;
+  background-color: #4CDFDD;
 }
 .navbar { min-height: 64px; }
 .navbar-default .navbar-toggle { 
@@ -115,25 +115,25 @@ margin-left: 0;
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #373D42;}
 
 .navbar-default {
-  background-color: #8DC429;
+  background-color: #041742;
   margin: 0;
   border: 0;
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: #F4FBE8;
-  font-family: 'Ubuntu', sans-serif;
+  color: #fff;
+  font-family: 'proxima-bold', sans-serif;
   padding-left: 20px;
   padding-right: 20px;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
-  background-color: #6C9032;
+  background-color: #0E9DE5;
   color: #fff;
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.active>a:hover {
-  background-color: #fff;
+  background-color: #4CDFDD;
 }
 
 .navbar-form .form-group {
@@ -149,7 +149,7 @@ margin-left: 0;
 }
 
 .insight {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'proxima-nova', sans-serif;
   font-size: 34px;
   font-style: italic;
   font-weight: 700;
@@ -201,22 +201,22 @@ margin-left: 0;
 #search { color: #fff; }
 
 #search::-webkit-input-placeholder {
-  color: #BCDF7E;
-  font-family: 'Ubuntu', sans-serif;
+  color: #041742;
+  font-family: 'proxima-nova', sans-serif;
   font-style: italic;
   font-weight: 100;
 }
 
 #search::-moz-placeholder {
-  color: #BCDF7E;
-  font-family: 'Ubuntu', sans-serif;
+  color: #041742;
+  font-family: 'proxima-nova', sans-serif;
   font-weight: 100;
 }
 
 .status {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
-  background-color: #597338;
+  background-color: #0E9DE5;
   border-radius: 3px;
   margin: 15px 0;
   padding: 8px 10px;
@@ -316,8 +316,8 @@ margin-left: 0;
   border-radius: 2px;
 }
 .btn-primary {
-  background-color: #8DC429;
-  border: 2px solid #76AF0F;
+  background-color: #26DB8D;
+  border: 2px solid #26DB8D;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active,
@@ -336,7 +336,7 @@ margin-left: 0;
 }
 
 .btn-default {
-  background-color: #E7E7E7;
+  background-color: #4CDFDD;
 }
 
 .btn-success {
@@ -390,6 +390,9 @@ margin-left: 0;
 
 /* Set the fixed height of the footer here */
 #footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
   background-color: #373D42;
   color: #fff;
   height: 51px;
@@ -673,7 +676,7 @@ a.v_highlight_more {
 
 .secondary_navbar {
   width: 100%;
-  background: #fff;
+  background: #4CDFDD;
   position: fixed;
   top: 64px;
   left: 0;
@@ -812,7 +815,7 @@ a.v_highlight_more {
     font-size: 11px;
   }
   .navbar-default .navbar-nav .open .dropdown-menu>li>a {
-    color: #fff;
+    color: #4CDFDD;
   }
   .txvalues {
     display: inline;
@@ -846,7 +849,19 @@ a.v_highlight_more {
     width: 280px;
   }
   .navbar-form .form-control {
-    width: 350px;
+    width: 320px;
   }
 }
 
+.horizenlogo {
+  width: 165px;
+  margin-top: -13px
+}
+
+#horizen a img{
+ display: inline-block;
+ max-width: 100%;
+ height: auto;
+ padding-top:20px;
+ padding-bottom:20px;
+}
