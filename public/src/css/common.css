@@ -857,3 +857,11 @@ a.v_highlight_more {
   width: 165px;
   margin-top: -13px
 }
+
+#horizen a img{
+ display: inline-block;
+ max-width: 100%;
+ height: auto;
+ padding-top:20px;
+ padding-bottom:20px;
+}
