@@ -8,6 +8,11 @@
 	<meta name="fragment" content="!">
 	<title data-ng-if="currency.testnet" data-ng-bind="$root.title + $root.titleDetail + ' | Testnet Insight'">Testnet Insight</title>
 	<title data-ng-if="!currency.testnet" data-ng-bind="$root.title + $root.titleDetail + ' | Insight'">Insight</title>
+	<meta property="og:site_name" content="explorer.horizen.global" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="HoriZEN (ZEN) Block Explorer" />
+	<meta property="og:description" content="Launched in 2017, Horizen’s leading-edge platform enables real-life uses outside of their cryptocurrency - ZEN. Horizen is a massively scalable general-purpose blockchain system that enables an unbounded and fully decentralized sidechain ecosystem." />
+	<meta property="og:url" content="https://explorer.horizen.global/" />
 	<meta name="keywords" content="zen, transactions, blocks, address, block chain, best block, mining difficulty, hash serialized">
 	<meta data-ng-if="currency.testnet" name="description" content="zen Insight. View detailed information on all testnet zen transactions and block. {{ $root.title + $root.titleDetail }}">
 	<meta data-ng-if="!currency.testnet" name="description" content="zen Insight. View detailed information on all zen transactions and block. {{ $root.title + $root.titleDetail }}">
