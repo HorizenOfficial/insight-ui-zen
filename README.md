@@ -1,6 +1,6 @@
 # Insight UI
 
-A Bitcoin blockchain explorer web application service for [Bitcore Node](https://github.com/bitpay/bitcore-node) using the [Insight API](https://github.com/ZencashOfficial/insight-api-zen).
+A Bitcoin blockchain explorer web application service for [Bitcore Node](https://github.com/bitpay/bitcore-node) using the [Insight API](https://github.com/HorizenOfficial/insight-api-zen).
 
 ## Quick Start
 
@@ -70,11 +70,11 @@ compile***.
 
 ## Note
 
-For more details about the [Insight API](https://github.com/ZencashOfficial/insight-api-zen) configuration and end-points, go to [Insight API GitHub repository](https://github.com/ZencashOfficial/insight-api-zen).
+For more details about the [Insight API](https://github.com/HorizenOfficial/insight-api-zen) configuration and end-points, go to [Insight API GitHub repository](https://github.com/HorizenOfficial/insight-api-zen).
 
 ## Contribute
 
-Contributions and suggestions are welcomed at the [Insight UI GitHub repository](https://github.com/ZencashOfficial/insight-ui-zen).
+Contributions and suggestions are welcomed at the [Insight UI GitHub repository](https://github.com/HorizenOfficial/insight-ui-zen).
 
 
 ## License
