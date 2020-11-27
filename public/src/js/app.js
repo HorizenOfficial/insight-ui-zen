@@ -3,7 +3,7 @@
 var testnet = false;
 var netSymbol = testnet ? 'TAZ' : 'zen';
 
-var defaultLanguage = localStorage.getItem('insight-language') || 'en';
+var defaultLanguage = localStorage.getItem('insight-language') || 'cn';
 var defaultCurrency = localStorage.getItem('insight-currency') || netSymbol;
 
 angular.module('insight',[
