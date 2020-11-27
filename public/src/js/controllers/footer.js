@@ -15,6 +15,9 @@ angular.module('insight.system').controller('FooterController',
     $scope.version = _getVersion();
 
     $scope.availableLanguages = [{
+      name: 'Chinese',
+      isoCode: 'cn',
+    }, {
       name: 'Deutsch',
       isoCode: 'de_DE',
     }, {

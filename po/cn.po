@@ -3,9 +3,9 @@ msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: Vis Virial <visvirial@gmail.com>\n"
+"Last-Translator: guan <guan@zensystem.io>\n"
 "Language-Team: \n"
-"Language: ja\n"
+"Language: cn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,11 +13,11 @@ msgstr ""
 
 #: public/views/transaction/tx.html
 msgid "(Input unconfirmed)"
-msgstr "(入力は未検証です)"
+msgstr "(输入尚未验证)"
 
 #: public/views/404.html
 msgid "404 Page not found :("
-msgstr "404 ページがみつかりません (´・ω・`)"
+msgstr "404 找不到页面 (´・ω・`)"
 
 #: public/views/index.html
 msgid ""
@@ -28,12 +28,12 @@ msgid ""
 "Check out the <a href=\"https://github.com/HorizenOfficial/insight-ui-zen\" target=\"_blank"
 "\">source code</a>."
 msgstr ""
-"<strong>insight</strong>は、zend RPCの提供するものよりも詳細なブロック"
-"チェインへの問い合わせを必要とするウェブウォレットやその他のアプリを書くのに"
-"使える、完全なRESTおよびwebsocket APIを備えた<a href=\"http://insight."
-"is/\" target=\"_blank\">オープンソースのビットコインブロックエクスプローラ</"
-"a>です。<a href=\"https://github.com/HorizenOfficial/insight-ui-zen\" target=\"_blank\">ソース"
-"コード</a>を確認"
+"<strong>insight</strong>  是一个 <a href=\"http://insight.is/\" target="
+"\"_blank\">开源区块链浏览器</a> 并拥有完整的REST "
+"以及可用于编写网络钱包和其他应用程序的WebSocket API"
+"这需要比zend RPC提供的更高级的区块链查询.  "
+"查看 <a href=\"https://github.com/HorizenOfficial/insight-ui-zen\" target=\"_blank"
+"\">源代码</a>."
 
 #: public/views/index.html
 msgid ""
@@ -41,258 +41,258 @@ msgid ""
 "bugs and provide feedback for improvement at our <a href=\"https://github."
 "com/HorizenOfficial/insight-ui-zen/issues\" target=\"_blank\">github issue tracker</a>."
 msgstr ""
-"<strong>insight</strong>は現在開発中です。<a href=\"https://github.com/"
-"HorizenOfficial/insight-ui-zen/issues\" target=\"_blank\">githubのissueトラッカ</a>にてバグの"
-"報告や改善案の提案をお願いします。"
+"<strong>insight</strong> 仍然处于开发中, 请记得向我们汇报所有形式的 "
+"bugs和提供反馈以改善 <a href=\"https://github."
+"com/HorizenOfficial/insight-ui-zen/issues\" target=\"_blank\">github 问题跟踪器</a>."
 
 #: public/views/index.html
 msgid "About"
-msgstr "はじめに"
+msgstr "关于"
 
 #: public/views/address.html public/views/messages_verify.html
 msgid "Address"
-msgstr "アドレス"
+msgstr "地址"
 
 #: public/views/index.html
 msgid "Age"
-msgstr "生成後経過時間"
+msgstr "生成后经过时间"
 
 #: public/views/messages_verify.html
 msgid "An error occured in the verification process."
-msgstr "検証過程でエラーが発生しました。"
+msgstr "在验证过程中发生了一个错误"
 
 #: public/views/transaction_sendraw.html
 msgid "An error occured:<br>{{error}}"
-msgstr "エラーが発生しました:<br>{{error}}"
+msgstr "发生了一个错误:<br>{{error}}"
 
 #: public/views/status.html
 msgid "Application Status"
-msgstr "アプリケーションの状態"
+msgstr "应用程序状态"
 
 #: public/views/status.html
 msgid "Best Block"
-msgstr "最良ブロック"
+msgstr "最佳区块"
 
 #: public/views/messages_verify.html
 msgid "zen comes with a way of signing arbitrary messages."
-msgstr "zenには任意のメッセージを署名する昨日が備わっています。"
+msgstr "zen带有一种签名任意消息的方式。"
 
 #: public/views/status.html
 msgid "zen node information"
-msgstr "zenノード情報"
+msgstr "zen节点信息"
 
 #: public/views/block.html
 msgid "Block"
-msgstr "ブロック"
+msgstr "区块"
 
 #: public/views/block.html
 msgid "Block Reward"
-msgstr "ブロック報酬"
+msgstr "区块奖励"
 
 #: public/views/block_list.html public/views/dummy-translations.html
 #: public/views/status.html
 msgid "Blocks"
-msgstr "ブロック"
+msgstr "区块"
 
 #: public/views/transaction_sendraw.html
 msgid "Broadcast Raw Transaction"
-msgstr "生のトランザクションを配信"
+msgstr "广播原始交易"
 
 #: public/views/status.html
 msgid "Bytes Serialized"
-msgstr "シリアライズ後の容量 (バイト)"
+msgstr "序列化后的容量（字节）"
 
 #: public/views/includes/connection.html
 msgid ""
 "Can't connect to zend to get live updates from the p2p network. (Tried "
 "connecting to zend at {{host}}:{{port}} and failed.)"
 msgstr ""
-"P2Pネットワークからライブ情報を取得するためにzendへ接続することができませ"
-"んでした。({{host}}:{{port}} への接続を試みましたが、失敗しました。)"
+"无法连接到zend以从p2p网络获取实时更新"
+"(尝试在{{host}}：{{port}}连接到zend，但失败。）"
 
 #: public/views/includes/connection.html
 msgid "Can't connect to insight server. Attempting to reconnect..."
-msgstr "insight サーバに接続できません。再接続しています..."
+msgstr "无法连接到insight服务器，正在重新尝试连接..."
 
 #: public/views/includes/connection.html
 msgid "Can't connect to internet. Please, check your connection."
-msgstr "インターネットに接続できません。コネクションを確認してください。"
+msgstr "无法联网，请检查您的网络联接。"
 
 #: public/views/status.html
 msgid "Complete"
-msgstr "完了"
+msgstr "完成"
 
 #: public/views/transaction.html public/views/transaction/tx.html
 msgid "Confirmations"
-msgstr "検証数"
+msgstr "确认数"
 
 #: public/views/includes/header.html
 msgid "Conn"
-msgstr "接続数"
+msgstr "连接数"
 
 #: public/views/status.html
 msgid "Connections to other nodes"
-msgstr "他ノードへの接続"
+msgstr "与其它节点联接数"
 
 #: public/views/status.html
 msgid "Current Blockchain Tip (insight)"
-msgstr "現在のブロックチェインのTip (insight)"
+msgstr "目前区块链的Tip (insight)"
 
 #: public/views/status.html
 msgid "Current Sync Status"
-msgstr "現在の同期状況"
+msgstr "目前同步状态"
 
 #: public/views/transaction.html
 msgid "Details"
-msgstr "詳細"
+msgstr "详情"
 
 #: public/views/block.html
 msgid "Difficulty"
-msgstr "難易度"
+msgstr "难度"
 
 #: public/views/transaction/tx.html
 msgid "Double spent attempt detected. From tx:"
-msgstr "二重支払い攻撃をこのトランザクションから検知しました："
+msgstr "检测到有人尝试双重支付，来自于tx："
 
 #: public/views/messages_verify.html
 msgid "Error message:"
-msgstr "エラーメッセージ:"
+msgstr "错误消息:"
 
 #: public/views/includes/connection.html
 msgid "Error!"
-msgstr "エラー！"
+msgstr "错误！"
 
 #: public/views/transaction/tx.html
 msgid "Fee"
-msgstr "手数料"
+msgstr "手续费"
 
 #: public/views/address.html
 msgid "Final Balance"
-msgstr "最終残高"
+msgstr "最终余额"
 
 #: public/views/status.html
 msgid "Finish Date"
-msgstr "終了日時"
+msgstr "完成日期"
 
 #: public/views/404.html
 msgid "Go to home"
-msgstr "ホームへ"
+msgstr "回到主页"
 
 #: public/views/status.html
 msgid "Hash Serialized"
-msgstr "シリアライズデータのハッシュ値"
+msgstr "序列化数据的哈希值"
 
 #: public/views/block.html public/views/block_list.html
 #: public/views/index.html public/views/status.html
 #: public/views/includes/header.html
 msgid "Height"
-msgstr "ブロック高"
+msgstr "高度"
 
 #: public/views/transaction.html public/views/transaction/tx.html
 msgid "Included in Block"
-msgstr "取り込まれたブロック"
+msgstr "包含到区块中"
 
 #: public/views/transaction/tx.html
 msgid "Incoherence in levelDB detected:"
-msgstr "levelDBの破損を検知しました:"
+msgstr "检测到levelDB中的不一致:"
 
 #: public/views/status.html
 msgid "Info Errors"
-msgstr "エラー情報"
+msgstr "错误信息"
 
 #: public/views/status.html
 msgid "Initial Block Chain Height"
-msgstr "起動時のブロック高"
+msgstr "最初区块链高度"
 
 #: public/views/transaction.html
 msgid "Input"
-msgstr "入力"
+msgstr "输入"
 
 #: public/views/status.html
 msgid "Last Block"
-msgstr "直前のブロック"
+msgstr "上一个区块"
 
 #: public/views/status.html
 msgid "Last Block Hash (zend)"
-msgstr "直前のブロックのハッシュ値 (zend)"
+msgstr "上一个区块的哈希值 (zend)"
 
 #: public/views/index.html
 msgid "Latest Blocks"
-msgstr "最新のブロック"
+msgstr "最新区块"
 
 #: public/views/index.html
 msgid "Latest Transactions"
-msgstr "最新のトランザクション"
+msgstr "最新交易"
 
 #: public/views/address.html
 msgid "Loading Address Information"
-msgstr "アドレス情報を読み込んでいます"
+msgstr "加载地址信息中"
 
 #: public/views/block.html
 msgid "Loading Block Information"
-msgstr "ブロック情報を読み込んでいます"
+msgstr "加载区块信息中"
 
 #: public/views/block_list.html
 msgid "Loading Selected Date..."
-msgstr "選択されたデータを読み込んでいます..."
+msgstr "加载选中日期中..."
 
 #: public/views/transaction.html
 msgid "Loading Transaction Details"
-msgstr "トランザクションの詳細を読み込んでいます"
+msgstr "加载选中交易详情中"
 
 #: public/views/transaction/list.html
 msgid "Loading Transactions..."
-msgstr "トランザクションを読み込んでいます..."
+msgstr "加载交易中..."
 
 #: public/views/messages_verify.html public/views/transaction_sendraw.html
 #: public/views/includes/infoStatus.html
 msgid "Loading..."
-msgstr "ロード中..."
+msgstr "加载中..."
 
 #: public/views/messages_verify.html
 msgid "Message"
-msgstr "メッセージ"
+msgstr "消息"
 
 #: public/views/transaction.html
 msgid "Mined Time"
-msgstr "採掘時刻"
+msgstr "挖出时间"
 
 #: public/views/block.html public/views/block_list.html
 #: public/views/index.html
 msgid "Mined by"
-msgstr "採掘者"
+msgstr "矿工"
 
 #: public/views/status.html
 msgid "Mining Difficulty"
-msgstr "採掘難易度"
+msgstr "挖矿难度"
 
 #: public/views/block.html
 msgid "Next Block"
-msgstr "次のブロック"
+msgstr "下一个区块"
 
 #: public/views/transaction/tx.html
 msgid "No Inputs (Newly Generated Coins)"
-msgstr "入力なし (新しく生成されたコイン)"
+msgstr "没有输入 (新生成的硬币)"
 
 #: public/views/block_list.html
 msgid "No blocks yet."
-msgstr "ブロックはありません。"
+msgstr "还尚未出块。"
 
 #: public/views/includes/search.html
 msgid "No matching records found!"
-msgstr "一致するレコードはありません！"
+msgstr "没有找到符合的记录！"
 
 #: public/views/address.html
 msgid "No. Transactions"
-msgstr "トランザクション数"
+msgstr "交易编号"
 
 #: public/views/block.html
 msgid "Number Of Transactions"
-msgstr "トランザクション数"
+msgstr "交易数量"
 
 #: public/views/transaction.html
 msgid "Output"
-msgstr "出力"
+msgstr "输出"
 
 #: public/views/index.html
 msgid "Powered by"
@@ -300,88 +300,88 @@ msgstr "Powered by"
 
 #: public/views/block.html
 msgid "Previous Block"
-msgstr "前のブロック"
+msgstr "前一个区块"
 
 #: public/views/status.html
 msgid "Protocol version"
-msgstr "プロトコルバージョン"
+msgstr "协议版本"
 
 #: public/views/status.html
 msgid "Proxy setting"
-msgstr "プロキシ設定"
+msgstr "代理设置"
 
 #: public/views/transaction_sendraw.html
 msgid "Raw transaction data"
-msgstr "トランザクションの生データ"
+msgstr "原始交易数据"
 
 #: public/views/transaction_sendraw.html
 msgid "Raw transaction data must be a valid hexadecimal string."
-msgstr "生のトランザクションデータは有効な16進数でなければいけません。"
+msgstr "原始交易数据必须是有效的十六进制字符串。"
 
 #: public/views/transaction.html
 msgid "Received Time"
-msgstr "受信時刻"
+msgstr "接收时间"
 
 #: public/views/redirect.html
 msgid "Redirecting..."
-msgstr "リダイレクトしています..."
+msgstr "重新定向中..."
 
 #: public/views/includes/search.html
 msgid "Search for block, transaction or address"
-msgstr "ブロック、トランザクション、アドレスを検索"
+msgstr "查找区块、交易或地址"
 
 #: public/views/index.html
 msgid "See all blocks"
-msgstr "すべてのブロックをみる"
+msgstr "查看所有区块"
 
 #: public/views/transaction_sendraw.html
 msgid "Send transaction"
-msgstr "トランザクションを送信"
+msgstr "发送交易"
 
 #: public/views/status.html
 msgid "Show Transaction Output data"
-msgstr "トランザクションの出力データをみる"
+msgstr "显示输出交易信息"
 
 #: public/views/transaction/tx.html
 msgid "Show all"
-msgstr "すべて表示"
+msgstr "显示全部"
 
 #: public/views/transaction/tx.html
-msgid "Show input"
-msgstr "入力を表示"
+msgid "显示输入"
+msgstr "显示输入"
 
 #: public/views/transaction/tx.html
 msgid "Show less"
-msgstr "隠す"
+msgstr "显示更少"
 
 #: public/views/transaction/tx.html
 msgid "Show more"
-msgstr "表示する"
+msgstr "显示更多"
 
 #: public/views/messages_verify.html
 msgid "Signature"
-msgstr "署名"
+msgstr "签名"
 
 #: public/views/block_list.html public/views/index.html
 #: public/views/transaction.html
 msgid "Size"
-msgstr "サイズ"
+msgstr "大小"
 
 #: public/views/block.html
 msgid "Size (bytes)"
-msgstr "サイズ (バイト)"
+msgstr "大小 (字节)"
 
 #: public/views/status.html
 msgid "Skipped Blocks (previously synced)"
-msgstr "スキップされたブロック (同期済み)"
+msgstr "跳过的区块（以前已同步）"
 
 #: public/views/status.html
 msgid "Start Date"
-msgstr "開始日時"
+msgstr "开始日期"
 
 #: public/views/dummy-translations.html
 msgid "Status"
-msgstr "ステータス"
+msgstr "状态"
 
 #: public/views/block.html public/views/transaction.html
 msgid "Summary"
@@ -389,63 +389,63 @@ msgstr "概要"
 
 #: public/views/address.html
 msgid "Summary <small>confirmed</small>"
-msgstr "サマリ <small>検証済み</small>"
+msgstr "概要<small>确认</small>"
 
 #: public/views/status.html
 msgid "Sync Progress"
-msgstr "同期の進捗状況"
+msgstr "同步进程"
 
 #: public/views/status.html
 msgid "Sync Status"
-msgstr "同期ステータス"
+msgstr "同步状态"
 
 #: public/views/status.html
 msgid "Sync Type"
-msgstr "同期タイプ"
+msgstr "同步类型"
 
 #: public/views/status.html
 msgid "Synced Blocks"
-msgstr "同期されたブロック数"
+msgstr "已同步区块数"
 
 #: public/views/status.html
 msgid "Testnet"
-msgstr "テストネット"
+msgstr "测试网"
 
 #: public/views/messages_verify.html
 msgid "The message failed to verify."
-msgstr "メッセージの検証に失敗しました。"
+msgstr "消息验证失败"
 
 #: public/views/messages_verify.html
 msgid "The message is verifiably from {{verification.address}}."
-msgstr "メッセージは{{verification.address}}により検証されました。"
+msgstr "此消息验证来自{{verification.address}}。"
 
 #: public/views/transaction/list.html
 msgid "There are no transactions involving this address."
-msgstr "このアドレスに対するトランザクションはありません。"
+msgstr "此地址没有任何交易。"
 
 #: public/views/transaction_sendraw.html
 msgid ""
 "This form can be used to broadcast a raw transaction in hex format over\n"
 "        the zen network."
 msgstr ""
-"このフォームでは、16進数フォーマットの生のトランザクションをzenネットワー"
-"ク上に配信することができます。"
+"该表格允许您将十六进制格式的原始交易广播到\n"
+"        zen网络。"
 
 #: public/views/messages_verify.html
 msgid ""
 "This form can be used to verify that a message comes from\n"
 "        a specific zen address."
 msgstr ""
-"このフォームでは、メッセージが特定のzenアドレスから来たかどうかを検証する"
-"ことができます。"
+"此表格可用于验证邮件来自\n"
+"      一个特定的zen地址。"
 
 #: public/views/status.html
 msgid "Time Offset"
-msgstr "時間オフセット"
+msgstr "时间偏移"
 
 #: public/views/block.html public/views/block_list.html
 msgid "Timestamp"
-msgstr "タイムスタンプ"
+msgstr "时间戳"
 
 #: public/views/block_list.html
 msgid "Today"
@@ -453,165 +453,165 @@ msgstr "今日"
 
 #: public/views/status.html
 msgid "Total Amount"
-msgstr "zen総量"
+msgstr "总量"
 
 #: public/views/address.html
 msgid "Total Received"
-msgstr "総入金額"
+msgstr "总共收入"
 
 #: public/views/address.html
 msgid "Total Sent"
-msgstr "総送金額"
+msgstr "总共发送"
 
 #: public/views/transaction.html
 msgid "Transaction"
-msgstr "トランザクション"
+msgstr "交易"
 
 #: public/views/status.html
 msgid "Transaction Output Set Information"
-msgstr "トランザクションの出力セット情報"
+msgstr "交易输出设定信息"
 
 #: public/views/status.html
 msgid "Transaction Outputs"
-msgstr "トランザクションの出力"
+msgstr "交易输出数量"
 
 #: public/views/transaction_sendraw.html
 msgid "Transaction succesfully broadcast.<br>Transaction id: {{txid}}"
-msgstr "トランザクションの配信に成功しました。<br>トランザクションID: {{txid}}"
+msgstr "交易成功广播。<br>交易ID: {{txid}}"
 
 #: public/views/address.html public/views/block.html
 #: public/views/block_list.html public/views/index.html
 #: public/views/status.html
 msgid "Transactions"
-msgstr "トランザクション"
+msgstr "交易数"
 
 #: public/views/transaction/tx.html
 msgid "Type"
-msgstr "タイプ"
+msgstr "类型"
 
 #: public/views/address.html
 msgid "Unconfirmed"
-msgstr "未検証"
+msgstr "未确认"
 
 #: public/views/transaction.html public/views/transaction/tx.html
 msgid "Unconfirmed Transaction!"
-msgstr "未検証のトランザクションです！"
+msgstr "未确认的交易！"
 
 #: public/views/address.html
 msgid "Unconfirmed Txs Balance"
-msgstr "未検証トランザクションの残高"
+msgstr "未确认的Txs余额"
 
 #: public/views/index.html
 msgid "Value Out"
-msgstr "出力値"
+msgstr "输出价值"
 
 #: public/views/messages_verify.html
 msgid "Verify"
-msgstr "検証"
+msgstr "验证"
 
 #: public/views/messages_verify.html
 msgid "Verify signed message"
-msgstr "署名済みメッセージを検証"
+msgstr "验证已签名消息"
 
 #: public/views/block.html public/views/status.html
 msgid "Version"
-msgstr "バージョン"
+msgstr "版本"
 
 #: public/views/block_list.html public/views/index.html
 msgid "Waiting for blocks..."
-msgstr "ブロックを待っています..."
+msgstr "等待区块中..."
 
 #: public/views/index.html
 msgid "Waiting for transactions..."
-msgstr "トランザクションを待っています..."
+msgstr "等待交易中.."
 
 #: public/views/block_list.html
-msgid "by date."
-msgstr "日毎。"
+msgid "by date"
+msgstr "按日期"
 
 #: public/views/transaction/tx.html
 msgid "first seen at"
-msgstr "最初に発見された日時"
+msgstr "最初看到的时间"
 
 #: public/views/transaction/tx.html
 msgid "mined"
-msgstr "採掘された"
+msgstr "已挖出"
 
 #: public/views/block_list.html
 msgid "mined on:"
-msgstr "採掘日時:"
+msgstr "挖出日時:"
 
 #~ msgid "(Mainchain)"
-#~ msgstr "(メインチェーン)"
+#~ msgstr "(主链)"
 
 #~ msgid "(Orphaned)"
-#~ msgstr "(孤立したブロック)"
+#~ msgstr "(孤块)"
 
 #~ msgid "Bits"
 #~ msgstr "Bits"
 
 #~ msgid "Block #{{block.height}}"
-#~ msgstr "ブロック #{{block.height}}"
+#~ msgstr "区块#{{block.height}}"
 
 #~ msgid "BlockHash"
-#~ msgstr "ブロックのハッシュ値"
+#~ msgstr "区块哈希值"
 
 #~ msgid "Blocks <br> mined on:"
-#~ msgstr "ブロック <br> 採掘日"
+#~ msgstr "区块 <br> 挖出日"
 
 #~ msgid "Coinbase"
-#~ msgstr "コインベース"
+#~ msgstr "区块基"
 
 #~ msgid "Hash"
-#~ msgstr "ハッシュ値"
+#~ msgstr "哈希值"
 
 #~ msgid "LockTime"
-#~ msgstr "ロック時間"
+#~ msgstr "锁定时间"
 
 #~ msgid "Merkle Root"
-#~ msgstr "Merkleルート"
+#~ msgstr "默克根"
 
 #~ msgid "Nonce"
-#~ msgstr "Nonce"
+#~ msgstr "随机数"
 
 #~ msgid "Ooops!"
-#~ msgstr "おぉっと！"
+#~ msgstr "哎呀！"
 
 #~ msgid "Output is spent"
-#~ msgstr "出力は使用済みです"
+#~ msgstr "输出已被花费"
 
 #~ msgid "Output is unspent"
-#~ msgstr "出力は未使用です"
+#~ msgstr "输出未被花费"
 
 #~ msgid "Scan"
-#~ msgstr "スキャン"
+#~ msgstr "扫描"
 
 #~ msgid "Show/Hide items details"
-#~ msgstr "アイテムの詳細を表示または隠す"
+#~ msgstr "展示/隐藏条目详情"
 
 #~ msgid "Waiting for blocks"
-#~ msgstr "ブロックを待っています"
+#~ msgstr "等待区块中"
 
 #~ msgid "by date. {{detail}} {{before}}"
-#~ msgstr "日時順 {{detail}} {{before}}"
+#~ msgstr "按时间 {{detail}} {{before}}"
 
 #~ msgid "scriptSig"
-#~ msgstr "scriptSig"
+#~ msgstr "script签名"
 
 #~ msgid "{{tx.confirmations}} Confirmations"
-#~ msgstr "{{tx.confirmations}} 検証"
+#~ msgstr "{{tx.confirmations}} 确认数"
 
 #~ msgid "<span class=\"glyphicon glyphicon-warning-sign\"></span> (Orphaned)"
 #~ msgstr ""
-#~ "<span class=\"glyphicon glyphicon-warning-sign\"></span> (孤立したブロッ"
-#~ "ク)"
+#~ "<span class=\"glyphicon glyphicon-warning-sign\"></span> (孤块）"
+#~ ""
 
 #~ msgid ""
 #~ "<span class=\"glyphicon glyphicon-warning-sign\"></span> Incoherence in "
 #~ "levelDB detected: {{vin.dbError}}"
 #~ msgstr ""
-#~ "<span class=\"glyphicon glyphicon-warning-sign\"></span> Incoherence in "
-#~ "levelDB detected: {{vin.dbError}}"
+#~ "<span class=\"glyphicon glyphicon-warning-sign\"></span> 检测到 "
+#~ "levelDB中的不一致: {{vin.dbError}}"
 
 #~ msgid "Waiting for blocks <span class=\"loader-gif\"></span>"
-#~ msgstr "ブロックを待っています <span class=\"loader-gif\"></span>"
+#~ msgstr "等待区块中 <span class=\"loader-gif\"></span>"
